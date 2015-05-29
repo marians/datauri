@@ -8,7 +8,7 @@ author='Marian Steinbach',
 author_email='marian@sendung.de',
 url='http://github.com/marians/datauri',
 py_modules=['datauri'],
-install_requires=['libmagic', 'python-magic', 'click'],
+install_requires=['click'],
 entry_points={
     'console_scripts': [
         'datauri = datauri:main'
